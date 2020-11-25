@@ -6,8 +6,8 @@ using namespace std;
 unsigned int transportujFlota(unsigned int towar)
 {
   int PrzewiezionyTowar = 0;
-  
   int licz =0;
+
   if(towar == 0){
     return 0;
   }
@@ -23,9 +23,8 @@ unsigned int transportujFlota(unsigned int towar)
     {
      licz++;
     }
-
-    }
     delete galeon;
+    }
     return licz;
   }
   
